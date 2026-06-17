@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "actionLabels": {
     "controle": "Contrôle",
     "nettoyage": "Nettoyage",
@@ -60,6 +60,28 @@
                       "type": "remplacement"
                     }
                   ]
+                },
+                {
+                  "label": "Tuyauterie de vide",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Capteurs de vide",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
                 }
               ]
             }
@@ -112,6 +134,31 @@
                       "type": "remplacement"
                     }
                   ]
+                },
+                {
+                  "label": "Câbles de connexion des résistances",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Isolateurs",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
                 }
               ]
             },
@@ -137,6 +184,20 @@
                   "actions": [
                     {
                       "type": "controle"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Patin de compression/Contre-barre",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
                     },
                     {
                       "type": "remplacement"
@@ -178,6 +239,53 @@
                     },
                     {
                       "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Vérins d'ouverture/fermeture",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Amortisseurs de couvercle",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Capteurs de position couvercle",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Surface de contact du joint",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
                     }
                   ]
                 }
@@ -246,6 +354,28 @@
                       "type": "remplacement"
                     }
                   ]
+                },
+                {
+                  "label": "Vanne anti-retour",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Silencieux/Échappement",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
                 }
               ]
             }
@@ -296,6 +426,25 @@
                     },
                     {
                       "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Écran IHM/Panneau de commande",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Boutons d'arrêt d'urgence",
+                  "actions": [
+                    {
+                      "type": "controle"
                     }
                   ]
                 }
@@ -428,6 +577,57 @@
                     },
                     {
                       "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Filtres à vide",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Pompe à vide",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    },
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "controle"
+                    }
+                  ]
+                },
+                {
+                  "label": "Capteurs de pression",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    },
+                    {
+                      "type": "controle"
                     }
                   ]
                 }
@@ -585,6 +785,20 @@
                       "type": "remplacement"
                     }
                   ]
+                },
+                {
+                  "label": "Capteurs de fin de film",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
                 }
               ]
             },
@@ -725,6 +939,37 @@
                 },
                 {
                   "label": "Câblage",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    }
+                  ]
+                },
+                {
+                  "label": "Moteurs d'entraînement",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "nettoyage"
+                    },
+                    {
+                      "type": "remplacement"
+                    },
+                    {
+                      "type": "lubrification"
+                    }
+                  ]
+                },
+                {
+                  "label": "Capteurs de sécurité",
                   "actions": [
                     {
                       "type": "controle"
@@ -952,6 +1197,19 @@
                       "type": "remplacement",
                       "note": "de",
                       "etats": "quelques couteaux/tous les couteaux"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Compensation épaisseur film",
+              "elements": [
+                {
+                  "label": "Compensation épaisseur film",
+                  "actions": [
+                    {
+                      "type": "reglage"
                     }
                   ]
                 }
@@ -1321,6 +1579,41 @@
                     },
                     {
                       "type": "reglage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Découpe longitudinale",
+              "elements": [
+                {
+                  "label": "Mécanisme",
+                  "actions": [
+                    {
+                      "type": "graissage"
+                    },
+                    {
+                      "type": "reglage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Lame circulaire",
+                  "actions": [
+                    {
+                      "type": "controle"
+                    },
+                    {
+                      "type": "reglage"
+                    }
+                  ]
+                },
+                {
+                  "label": "Fentes/Contre-lame",
+                  "actions": [
+                    {
+                      "type": "controle"
                     }
                   ]
                 }
